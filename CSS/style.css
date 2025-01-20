@@ -1,0 +1,83 @@
+
+        body{
+            background-color: aquamarine;
+            font-family: Arial,sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        nav{
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+       nav ul{
+           display: flex;
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+        }
+       nav ul li{
+           margin: 0 20px;
+       }
+       nav ul li a{
+           text-decoration: none;
+           font-size: 18px;
+           font-weight: bold;
+           color: black;
+           padding: 10px 20px;
+           border-radius: 50px;
+       }
+       nav ul li a:hover{
+           background-color: black;
+           color: azure;
+       }
+       .hero_image{
+           background-image: url("https://cdn.pixabay.com/photo/2015/07/10/20/54/stethoscope-840125_960_720.jpg");
+           background-size: cover;
+           background-position: center;
+           height: 570px;
+           border-radius: 15px;
+           margin: 18px;
+
+       }
+       .section_one{
+           text-align: center;
+           color: black;
+       }
+li{
+    background-color: whitesmoke;
+    margin: 20px;
+    font-size: 15px;
+}
+ .about-us{
+         background-color: #c4fdff;
+         height: 60px;
+       }
+.about{
+         background-color: #c4d2ff;
+         height: 60px;
+       }
+       .section{
+         background-color: #cd845c;
+         height: 60px;
+       }
+       #one{
+         background-color: rgba(58, 0, 128, 0.68);
+         height: 60px;
+       }
+       #two{
+         background-color: dimgrey;
+         height: 60px;
+       }
+
+
+
+
+
+
